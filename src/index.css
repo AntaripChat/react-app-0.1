@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .text-shadow{
+        text-shadow: 2px 2 px 2px #1128015b;
+    }
+    .img-shadow{
+        filter : drop-shadow(40px 50px 25px #300000ed);
+    }
+    .img-shadow{
+        filter : drop-shadow(40px 50px 25px #300000ed);
+    }
+    .primary-btn{
+        @apply border border-primary px-4 py-2 rounded-lg;
+    }
+}
